@@ -1,0 +1,68 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
+
+@import
+ url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&family=Work+Sans:wght@900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:
+}
+
+header{
+    position: relative;
+    background-image: url(/images/image-header.jpg);
+    height: 1100px;
+    justify
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.arrow{
+    position: absolute;
+    left: 80%;
+    top: 70%;
+}
+a{
+    text-decoration: none;
+    color: #ccf2fc;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 18px;
+} 
+li :hover{
+    background-color: #ccf2fc;
+}
+.last{
+    background-color: #ccf2fc;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    color: black;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+}
+.create{
+    color: #ccf2fc;
+    position: absolute;
+    left: 70%;
+    top: 60%;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+}
